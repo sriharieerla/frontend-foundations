@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Class</title>
+  </head>
+  <body>
+    <script>
+      class PersonClass {
+        name = "Hari";
+        age = 21;
+        display() {
+          age = 15;
+          console.log("My name is " + name);
+          console.log("Age is" + this.age);
+        }
+        myData() {
+          console.log("Hello Data");
+        }
+      }
+      var p = new PersonClass();
+      p.display();
+      p.myData();
+    </script>
+  </body>
+</html>
