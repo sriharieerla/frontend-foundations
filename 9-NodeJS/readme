@@ -1,0 +1,7 @@
+//fs->FileSystem
+//to write -> writeFileSync()
+//to read -> readFileSync()
+//to convert number to string -> toString(),Utf8
+//rename a file -> renameSync()
+//mkdirSync()
+//server side environment fro exceuting js programs v8
