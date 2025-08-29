@@ -1,0 +1,8 @@
+expressJs-->nodeJS-->Js
+prerequisites:
+node.js and npm
+install expressJs using this command
+
+> npm install express
+> Why do we actually need express?
+> Express, this will take you about 5 to 10 times less of code than your nodeJS
