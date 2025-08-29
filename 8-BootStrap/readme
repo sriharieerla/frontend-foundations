@@ -1,0 +1,26 @@
+What is Bootstrap?
+1. Bootstrap is a popular front-end framework used for building     responsive and mobile-first web applications.
+2. It provides a set of pre-designed HTML, CSS, and JavaScript
+   components, as well as a grid system, to help developers quickly
+   create consistent and visually appealing interfaces.
+3. Bootstrap is known for its ease of use, flexibility, and
+   extensive customization options, making it a popular choice among
+   web developers.
+4. It's also open-source, which means it's free to use and modify. With Bootstrap, developers can create a wide range of web applications, from simple websites to complex web applications.
+
+What is Bootstrap Container ?
+
+1. In web development, a Bootstrap container is a
+   pre-designed component in the Bootstrap framework,
+   a popular front-end framework based on CSS, HTML,
+   and JavaScript.
+2. A Bootstrap container is a container class that provides a              responsive, grid-based layout for websites and
+        web applications.
+3. It helps organize content, manage spacing, and ensure a
+   consistent appearance across different devices and screen sizes.
+4. Applying a Bootstrap container, developers can quickly build responsive and adaptable interfaces without coding from scratch.
+
+Grid System:
+
+Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content.
+Columns are created by using the .col-* classes, where * can be a number from 1 to 12 indicating the number of columns to span
