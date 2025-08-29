@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exception Handling</title>
+  </head>
+  <body>
+    <script>
+      function divide(a, b) {
+        try {
+          if (b === 0) {
+            throw new Error(`Division by Zero is not allowed`);
+          }
+          let result = a / b;
+          console.log(`Result: ${result}`);
+        } catch (error) {
+          console.error(`Error:${error.message}`);
+        }
+      }
+      divide(10, 2);
+      // divide(10, 0);
+    </script>
+  </body>
+</html>

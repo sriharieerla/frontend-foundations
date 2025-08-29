@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script>
+      function loginValidation() {
+        var uname = document.myform.username.value;
+        var pass = document.myform.password.value;
+        if (uname == null || uname == "") {
+          alert("Name cant be blank");
+          return false;
+        } else if (pass.length < 6) {
+          alert("Password must be 6 letters");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Login Page</h1>
+    <form
+      name="myform"
+      action="C:\Users\lenovo\Desktop\UI_Development\1-hmtl\Exp11-loginsuccess.html"
+      onsubmit="return loginValidation(this)"
+    >
+      User Name: <input type="text" name="username" /> <br />
+      PassWord: <input type="password" name="password" /><br />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
