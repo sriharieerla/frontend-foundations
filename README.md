@@ -7,7 +7,7 @@ This repository documents my complete frontend and MERN stack journey — from s
 - Beginner UI components and mini-projects built with vanilla technologies.
 
 ### 2. React Basics
-- Core React practice: components, props, hooks, etc.
+- Core React practice: components, props, hooks, etc and also node and express basics.
 
 ### 3. MERN Stack Projects
 - Full-stack apps combining MongoDB, Express, React, and Node.js.
